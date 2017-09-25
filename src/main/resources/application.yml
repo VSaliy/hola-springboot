@@ -1,0 +1,39 @@
+spring:
+    devtools:
+        restart:
+            enabled: false
+        reload:
+            trigger-file: .reloadtrigger
+
+helloapp:
+    saying: Guten Tag aus
+
+security:
+    user:
+        name: admin
+        password: secret
+
+management:
+    port: 8081
+    address: 127.0.0.1
+    security:
+        enabled: false
+        role: SUPERUSER
+
+endpoints:
+    info:
+        id: information
+        sensitive: false
+        enabled: true
+    beans:
+        id: springbeans
+        sensitive: false
+        enabled: true
+    metrics:
+        sensitive: false
+
+info:
+    app:
+        name:  Spring Sample Application
+        description: This is my first spring boot application
+        version: 1.0.0
