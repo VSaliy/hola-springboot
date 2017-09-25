@@ -1,4 +1,4 @@
-package com.examples;
+package com.examples.actuator;
 
 import org.springframework.boot.actuate.endpoint.Endpoint;
 import org.springframework.stereotype.Component;

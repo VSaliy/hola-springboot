@@ -37,3 +37,8 @@ info:
         name:  Spring Sample Application
         description: This is my first spring boot application
         version: 1.0.0
+
+greeting:
+    saying: Hola Spring Boot
+    backendServiceHost: localhost
+    backendServicePort: 8080
